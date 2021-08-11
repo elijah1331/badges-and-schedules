@@ -1,4 +1,3 @@
-require 'pry'
 
 def badge_maker(name)
     "Hello, my name is #{name}."
@@ -24,7 +23,7 @@ def printer(arr)
     assign_rooms(arr).each do |arr|
         puts arr
     end
-    
+
 end
 
 
